@@ -1,0 +1,29 @@
+{
+    "name": "hn7r/mezzio-esv",
+    "description": "Mezzio bindings for hn7r/esv-php-sdk",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hn7r\\Mezzio\\Esv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hn7r",
+            "email": "hamptoncode@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hn7r/esv-php-sdk": "dev-main",
+        "psr/container": "^2.0@dev",
+        "psr/http-client": "^1.0@dev",
+        "psr/http-factory": "^1.1"
+    },
+    "extra": {
+        "laminas": {
+            "config-provider": "Hn7r\\Mezzio\\Esv\\ConfigProvider"
+        }
+    }
+}
