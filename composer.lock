@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87783405b9b18cf56299d1fb8c7738d5",
+    "content-hash": "1dd41b369537ada3851df4941fdb248c",
     "packages": [
         {
             "name": "hn7r/esv-php-sdk",
@@ -278,7 +278,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "hn7r/esv-php-sdk": 20,
-        "psr/container": 20,
         "psr/http-client": 20
     },
     "prefer-stable": false,
